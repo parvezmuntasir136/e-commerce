@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff !important;
+}
+a{
+  text-decoration: none;
+  color: #1a1e21;
+}
+/* ==============header-section======================= */
+header nav{
+  background: #fff;
+  box-shadow: 0px 0px 5px #4444;
+}
+.navbar{
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  z-index: 100000;
+}
+header nav .navbar-brand img{
+  height: 40px;
+}
+header nav form.search-form {
+  width: 300px;
+  margin-right: 50px;
+  position: relative;
+}
+header nav form.search-form input {
+  border-radius: 50px;
+}
+header nav form.search-form button.search-btn {
+  border-radius: 50px;
+  padding: 7px 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: rgb(245, 163, 12);
+  border: 0;
+  color: #fff;
+}
+header nav ul.action-menu .nav-item .nav-link {
+  margin: 0px 20px;
+  font-size: 18px;
+}
+/* =======================slider-section============== */
+section.slider {
+  background: #f7f7f7f7;
+  height: 566px;
+  padding-top: 64px;
+}
+section.slider .slider-text h2 {
+  font-size: 68px;
+  font-weight: 600;
+}
+section.slider .slider-text h2 span.lighten {
+  color: orange;
+}
+section.slider .slider-text p {
+  font-size: 16px;
+  color: #4a4949cc;
+}
+section.slider .slider-text a.btn-order-now {
+  margin-top: 10px;
+  font-size: 18px;
+  background: #fd7e1438;
+  padding: 10px 49px;
+  border-radius: 50px;
+  color: #ff9944;
+  font-weight: 600;
+}
+section.slider .slider-text a.btn-order-now:hover {
+  box-shadow: 2px 2px 5px rgba(255, 153, 68, 0.51);
+}
+section.slider .slider-image img {
+  height: 400px;
+  object-fit: contain;
+}
+/* =============product-cattagory================== */
+.category-product {
+  padding: 55px 0px;
+}
+section.category-product .section-title h2{
+  font-size: 35px;
+  font-weight: 900;
+  position: relative;
+}
+ section.category-product .section-title h2::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background:  #198754;
+    left: 50%;
+    bottom: -6px;
+    transform: translate(-50%);
+ }
+.category-product .card{
+  background: #f7f7f7;
+}
+.category-product .card .card-body {
+  text-align: center;
+}
+.category-product .card .card-body img {
+  height: 150px;
+  object-fit: contain;
+  transition: 0.6s;
+}
+.category-product .card .card-body h4 {
+  font-size: 25px;
+  margin: 40px 0px;
+}
+.category-product .card .card-body .view-all-btn{
+  padding: 7px 30px;
+  background:  #198754;
+  border-radius: 50px;
+  color: #fff;
+  transition: .6s;
+}
+.category-product .card .card-body .view-all-btn:hover{
+  background: #fff;
+  color:  #198754;
+  border: 1px solid #000;
+}
+.category-product .card:hover .card-body img {
+  width: 100%;
+  transform: scale(1.2);
+}
+/* ========order=========== */
+.carousel .btn{
+  color: red;
+}
+/* --------------------------banner-section------------------ */
+.banner-section{
+  padding: 20px 0;
+}
+.banner-section .item {
+  background: #ccc;
+  padding: 20px;
+}
+.banner-section .item .text {
+  max-width: 209px;
+}
+.banner-section .item .text h2 {
+  font-size: 36px;
+  line-height: 51px;
+  text-shadow: 1px 1px 1px #4444;
+}
+.banner-section .item img {
+  object-fit: cover;
+  height: 200px;
+}
+.banner-section .item .text a.order-now {
+  background: #198754;
+  padding: 8px 29px;
+  border-radius: 50px;
+  color: #fff;
+  transition: .5s;
+}
+.banner-section .item .text a.order-now:hover{
+  background: #fff;
+  color:  #198754;
+  border: 1px solid #000;
+}
+/* =====vegetable----fruits------food-------furniture---card---------global-css====================== */
+.card-section{
+  padding: 33px 0;
+  background: #f7f7f7f7;;
+}
+.card-section .card-body img{
+  width: 100%;
+  height: 160px;
+  transition: .6s;
+}
+.card-section .card:hover .card-body img {
+  transform: scale(1.2);
+}
+.card-section .card .card-body .product-name{
+  font-size: 20px;
+  padding: 15px 0;
+}
+.card-section .card .card-body h2.price {
+  font-size: 30px;
+  padding: 10px 0px;
+}
+.card-section .card .card-body .add-to-cart-btn {
+  border: 1px solid #198754;
+  padding: 5px 23px;
+  color: #198754;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.6s;
+}
+.card-section .card .card-body .add-to-cart-btn:hover{
+  background: #198754;
+  color:#f7f7f7
+}
+.card-section .card .card-body .add-to-favorite i:hover{
+  color: red;
+}
+/* ==============grossery-banner----------------- */
+.grossery-banner .gossery-title{
+    background: url(../images/banner/landingBannerTop.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    padding-top: 100px;
+}
+/* ==============================promo-banner====================== */
+.banner .promo-title{
+  padding: 170px;
+  background: url(../images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner .promo-title{
+  font-size: 68px;
+  font-weight: 600;
+}
+.banner .promo-title h2 span{
+  color: orange;
+}
+/* =====================footer==================== */
+ul.footer-list {
+  margin: 0;
+  padding: 0px 20px;
+}
+.pay-title h2{
+  font-size: 24px;
+}
+.pay img {
+  margin-left: 10px;
+  width: 100px;
+  height: 70px;
+}
+.footer-section .follow {
+  bottom: 0;
+}
+.footer-section .follow ul{
+  list-style: none;
+  margin-left: -46px;
+}
+.footer-section .follow .social-icon a img:hover{
+  transform: scale(.8);
+}
+.icon img{
+  width: 50px;
+}
+/* ====================================responsive============================ */
+@media only screen and (max-width: 992px) {
+  section.slider .slider-text h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+section.banner h1.promo-title {
+  font-size: 32px;
+}
+}
+@media only screen and (max-width: 400px){
+  .banner-section .item .text a.order-now {
+    padding: 8px 11px;
+}
+.banner-section .item .text h2 {
+  font-size: 26px;
+}
+.banner-section .item .text p {
+font-size: 14px;
+}
+.banner-section .item .text a{
+  font-size: 12px;
+}
+}@media only screen and (max-width: 431px){
+  .banner-section .item .text h2 {
+    font-size: 20px;
+}
+
+.banner-section .order-now{
+    font-size: 14px;
+}
+@media only screen and (max-width: 471px){
+  .banner-section .item .text a.order-now {
+    padding: 8px 21px;
+}
+}

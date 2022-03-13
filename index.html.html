@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop-mall</title>
+    <link rel="icon" href="./assets/images/favicon.png">
+    <!-- ===========================css============================== -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- ================================font===================================== -->
+    <link rel="stylesheet" href="assets/fonts/bootstrap-icons.css">
+    <!-- =======================customcss============================== -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!--Header section-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/ecommerce-logo-png-11.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Shop</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 action-menu">
+                        <form class="search-form">
+                            <input class="form-control me-2" type="search" placeholder="Search for products.." aria-label="Search">
+                            <button class="btn btn-outline-success search-btn" type="submit">Search</button>
+                        </form>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-heart"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-cart4 position-relative">
+                                    <span style="font-size: 12px"
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">2</span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-person"></i>
+                            </a>
+                            <ul class="dropdown-menu border-0 shadow-lg" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Login</a></li>
+                                <li><a class="dropdown-item" href="#">Register</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ----------------slider----------------------- -->
+    <section class="slider">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="container">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-6 slider-text">
+                                <h2 class="text-success">
+                                    Order <span class="lighten">Online</span>, Save Your <br>
+                                    <span class="lighten">Time</span>
+                                </h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur illo
+                                    laborum optio porro quis reiciendis rerum sapiente velit veniam.</p>
+                                <a href="" class="btn-order-now">Order Now</a>
+                            </div>
+                            <div class="col-lg-6 slider-image">
+                                <img src="assets/images/product/f1.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-6 slider-text">
+                                <h2 class="text-success">
+                                    Order <span class="lighten">Online</span>, Save Your <br>
+                                    <span class="lighten">Time</span>
+                                </h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur illo
+                                    laborum optio porro quis reiciendis rerum sapiente velit veniam.</p>
+                                <a href="" class="btn-order-now">Order Now <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                            <div class="col-lg-6 slider-image">
+                                <img src="assets/images/product/f3.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-6 slider-text">
+                                <h2 class="text-success">
+                                    Order <span class="lighten">Online</span>, Save Your <br>
+                                    <span class="lighten">Time</span>
+                                </h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur illo
+                                    laborum optio porro quis reiciendis rerum sapiente velit veniam.</p>
+                                <a href="" class="btn-order-now">Order Now <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                            <div class="col-lg-6 slider-image">
+                                <img src="assets/images/product/f4.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-6 slider-text">
+                                <h2 class="text-success">
+                                    Order <span class="lighten">Online</span>, Save Your <br>
+                                    <span class="lighten">Time</span>
+                                </h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur illo
+                                    laborum optio porro quis reiciendis rerum sapiente velit veniam.</p>
+                                <a href="" class="btn-order-now">Order Now <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                            <div class="col-lg-6 slider-image">
+                                <img src="assets/images/product/f2.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!------------------------------cattegory -produnct---------------------->
+    <section class="category-product">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Catagory Products</h2>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/images/product/f1.png" alt="">
+                            <h4>Vegetables</h4>
+                            <a href="" class="view-all-btn">View All <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/images/product/product1.png" alt="">
+                            <h4>grossery</h4>
+                            <a href="" class="view-all-btn">View All <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/images/product/fruits-.png" alt="">
+                            <h4>Fruits</h4>
+                            <a href="" class="view-all-btn">View All <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/images/product/—Pngtree—wooden furniture.png" alt="" class="img fluid">
+                            <h4>Furniture</h4>
+                            <a href="" class="view-all-btn">View All <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================how-to-order----------------------- -->
+    <section class="order">
+        <div class="container">
+            <h3 class="text-center pb-3 fw-bold fs-2">How To Order To Shop-Mall?</h3>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/banner/order.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/banner/payment.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/banner/delivery.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- --------------------------------our-offer--------------------- -->
+    <section class="offer-section py-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center  p-4"><span class="bg-danger p-4 text-white rounded-3">Our Special Offer</span></h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-item d-flex active" data-bs-interval="10000">
+                        <img src="./assets/images/offer/pepsi.jpg" class="d-block w-25" alt="...">
+                        <img src="./assets/images/offer/nodooles.jpg" class="d-block w-25" alt="...">
+                        <img src="./assets/images/offer/tea.jpg" class="d-block w-25" alt="...">
+                        <img src="./assets/images/offer/hand-wash.jpg" class="d-block w-25" alt="...">
+                      </div>
+                      <div class="carousel-item d-flex" data-bs-interval="10000">
+                        <img src="./assets/images/offer/dettol.jpg" class="d-block w-25" alt="...">
+                        <img src="./assets/images/offer/hand-wash.jpg" class="d-block w-25" alt="...">
+                        <img src="./assets/images/offer/rok-shuvro-detergent.jpg" class="d-block w-25" alt="...">
+                        <img src="./assets/images/offer/trix-dishwashing.jpg" class="d-block w-25" alt="...">
+                      </div>
+                      
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </section>
+   
+    
+    <!--Banner section-->
+    <section class="banner-section mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="item d-flex">
+                        <div class="text">
+                            <p class="text-danger">Fresh Fruits</p>
+                            <h2>Healthy Food</h2>
+                            <p>Get 20% Off Selected Product</p>
+                            <a href="" class="order-now">Order Now</a>
+                        </div>
+                        <img src="assets/images/product/fruits-.png" alt="" class="img">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="item d-flex">
+                        <div class="text">
+                            <p class="text-danger">Fresh Vagetables</p>
+                            <h2>Fresh Vegetables</h2>
+                            <p>Get 20% Off Selected Product</p>
+                            <a href="" class="order-now">Order Now</a>
+                        </div>
+                        <img src="assets/images/product/f1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ---------------------------------vegetables-product------------------------ -->
+    <section class="card-section my-5">
+        <div class="container">
+            <h2>Vegetables</h2>
+            <hr>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="assets/images/product/product27.png" class="img-fluid" alt="">
+                            <h2 class="product-name">
+                                <a href="">Organic Cauliflower (1kg)</a>
+                            </h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <h2 class="price text-danger">৳ 80.00</h2>
+                            <div class="btn d-flex justify-content-between align-items-center">
+                                <a href="" class="add-to-cart-btn">
+                                    <i class="bi bi-cart4"></i> Add to Cart
+                                </a>
+                                <a href="" class="add-to-favorite text-warning">
+                                    <i class="bi bi-heart-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="assets/images/product/product20.png"  class="img-fluid" alt="">
+                            <h2 class="product-name">
+                                <a href="">Organic Tomato (1kg)</a>
+                            </h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <h2 class="price text-danger">৳ 100.00</h2>
+                            <div class="btn d-flex justify-content-between align-items-center">
+                                <a href="" class="add-to-cart-btn">
+                                    <i class="bi bi-cart4"></i> Add to Cart
+                                </a>
+                                <a href="" class="add-to-favorite text-warning">
+                                    <i class="bi bi-heart-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="assets/images/product/product22.png"  class="img-fluid" alt="">
+                            <h2 class="product-name">
+                                <a href="">Fresh Carrot (1 kg)</a>
+                            </h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <h2 class="price text-danger">৳ 90.00</h2>
+                            <div class="btn d-flex justify-content-between align-items-center">
+                                <a href="" class="add-to-cart-btn">
+                                    <i class="bi bi-cart4"></i> Add to Cart
+                                </a>
+                                <a href="" class="add-to-favorite text-warning">
+                                    <i class="bi bi-heart-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="assets/images/product/product26.png"  class="img-fluid" alt="">
+                            <h2 class="product-name">
+                                <a href="">Potato (1kg)</a>
+                            </h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h2 class="price text-danger">৳ 20.00</h2>
+                            <div class="btn d-flex justify-content-between align-items-center">
+                                <a href="" class="add-to-cart-btn">
+                                    <i class="bi bi-cart4"></i> Add to Cart
+                                </a>
+                                <a href="" class="add-to-favorite text-warning">
+                                    <i class="bi bi-heart-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-3 p-2">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <img src="assets/images/product/product40.png"  class="img-fluid" alt="">
+                                <h2 class="product-name">
+                                    <a href="">Red-Radish(1kg)</a>
+                                </h2>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <h2 class="price text-danger">৳ 100.00</h2>
+                                <div class="btn d-flex justify-content-between align-items-center">
+                                    <a href="" class="add-to-cart-btn">
+                                        <i class="bi bi-cart4"></i> Add to Cart
+                                    </a>
+                                    <a href="" class="add-to-favorite text-warning">
+                                        <i class="bi bi-heart-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <img src="assets/images/shop/bottle-gourd-404x404.jpg"  class="img-fluid" alt="">
+                                <h2 class="product-name">
+                                    <a href="">Organic Gourd (1 piece)</a>
+                                </h2>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <h2 class="price text-danger">৳ 50.00</h2>
+                                <div class="btn d-flex justify-content-between align-items-center">
+                                    <a href="" class="add-to-cart-btn">
+                                        <i class="bi bi-cart4"></i> Add to Cart
+                                    </a>
+                                    <a href="" class="add-to-favorite text-warning">
+                                        <i class="bi bi-heart-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <img src="assets/images/shop/coriander-404x404.jpg"  class="img-fluid" alt="">
+                                <h2 class="product-name">
+                                    <a href="">coriander</a>
+                                </h2>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <h2 class="price text-danger">৳ 20.00</h2>
+                                <div class="btn d-flex justify-content-between align-items-center">
+                                    <a href="" class="add-to-cart-btn">
+                                        <i class="bi bi-cart4"></i> Add to Cart
+                                    </a>
+                                    <a href="" class="add-to-favorite text-warning">
+                                        <i class="bi bi-heart-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-lg-3">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="assets/images/shop/cauliflower-404x404.jpg"  class="img-fluid" alt="">
+                            <h2 class="product-name">
+                                <a href="">Cauliflower (1kg)</a>
+                            </h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h2 class="price text-danger">৳ 70.00</h2>
+                            <div class="btn d-flex justify-content-between align-items-center">
+                                <a href="" class="add-to-cart-btn">
+                                    <i class="bi bi-cart4"></i> Add to Cart
+                                </a>
+                                <a href="" class="add-to-favorite text-warning">
+                                    <i class="bi bi-heart-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ------------------grossery-banner------------- -->
+<section class="grossery-banner">
+    <div class="container">
+        <div class="gossery-title">
+            <h1 class="text-center text-denger mt-5"><span>Grossery delivered in 30 minutes</span></h1>
+        </div>
+    </div>
+</section>
+<!-- --------------------------------------------grossery----------------- -->
+<section class="card-section my-5">
+    <div class="container">
+        <h2>grossery-product</h2>
+        <hr>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/product21.png" class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Miniket Rice (1kg)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 60.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/product4.png"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">onion (1kg)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 50.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/product2.png"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Egg (12 piece)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 90.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/product28.png"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Garlic (1kg)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 120.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/atta.png" class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Bosondora Atta(1 Kg)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="offer text-decoration-line-through fs-5">৳ 44.00</h2>
+                        <h2 class="price text-danger">৳ 40.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/sorisa oil.png" class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Ghani Vanga oil(5 Litter)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h2 class="offer text-decoration-line-through fs-5">৳ 950.00</h2>
+                        <h2 class="price text-danger fs-5">৳ 902.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/pran.jpg" class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Pran rice(50 Kg)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="offer text-decoration-line-through fs-5">৳ 2000.00</h2>
+                        <h2 class="price text-danger">৳ 1900.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/product16.png" class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Chini Gura rice(1 Kg)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="offer text-decoration-line-through fs-5">৳ 105.00</h2>
+                        <h2 class="price text-danger">৳ 100.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- --------------------------------------------fruits----------------- -->
+<section class="card-section my-5">
+    <div class="container">
+        <h2>Fresh Fruits</h2>
+        <hr>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/product31.png" class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Bannana (1 Dozon)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 60.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/product33.png"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Orange (1kg)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 150.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/product30.png"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Apple (1 Kg)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 150.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/product32.png"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Guava (1kg)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 70.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/product34.png" class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Grapes (1 Kg)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 60.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/product24.png"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Papaya (1 piece)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 150.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/f4.png"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Strawberries (1 Kg)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 150.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/product29.png"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Corn (1kg)</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 30.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ <!--Banner section-->
+ <section class="banner-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="item d-flex">
+                    <div class="text">
+                        <p class="text-danger">Furniture</p>
+                        <h2>Furniture</h2>
+                        <p>Get 20% Off Selected Product</p>
+                        <a href="" class="order-now">Order Now</a>
+                    </div>
+                    <img src="assets/images/product/—Pngtree—wooden furniture.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="item d-flex">
+                    <div class="text">
+                        <p class="text-danger">Fresh Vagetables</p>
+                        <h2>Electronices</h2>
+                        <p>Get 20% Off Selected Product</p>
+                        <a href="" class="order-now">Order Now</a>
+                    </div>
+                    <img src="assets/images/product/tv.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- --------------------------------------------Furniture section----------------- -->
+<section class="card-section my-5">
+    <div class="container">
+        <h2>Furniture</h2>
+        <hr>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/table.jpg" class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Table</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 760.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/almira.jpg"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Closet Waredrop</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 4500.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/sofa.jpg"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">sofaset</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 8000.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/132-1329270_plastic-chair-png.png"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Plastic Chair</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 350.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/almira (1).jpg" class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Almira</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 2000.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/bed side.jpg"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Bed Side Table</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 4,000.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/monihari sofa.jpg"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Monihari Sofa</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 10,000.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/comuter table.jpg"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Computer Table</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 3,000.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning ">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- --------------------------------------------Electronices section----------------- -->
+<section class="card-section my-5">
+    <div class="container">
+        <h2>Electronices-Product</h2>
+        <hr>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/tv.jpg" class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">LG LED Talevision</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 12,000.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/samsung.jpg"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Samsung SmartPhone</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 15000.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/accer.jpg"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Accer Laptop</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 50,000.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/realme.jpg"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Realme Phone</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 8,500.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/realme airphone.jpg" class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Realme Earphone</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 220.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/laptop.png"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">HP Laptop</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 44,000.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/harddisk.jpg"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">Toshiba Harddisk</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 4,000.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="assets/images/product/tv box.png"  class="img-fluid" alt="">
+                        <h2 class="product-name">
+                            <a href="">TV Box</a>
+                        </h2>
+                        <div class="rating">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h2 class="price text-danger">৳ 1400.00</h2>
+                        <div class="btn d-flex justify-content-between align-items-center">
+                            <a href="" class="add-to-cart-btn">
+                                <i class="bi bi-cart4"></i> Add to Cart
+                            </a>
+                            <a href="" class="add-to-favorite text-warning ">
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Promotion banner-->
+<section class="banner">
+    <div class="container">
+        <h1 class="promo-title text-success">
+            Order <span class="lighten text-warning">Online</span>,<br>Save Your
+            <span class="lighten text-warning">Time</span>
+        </h1>
+    </div>
+</section>
+<!--Footer section-->
+<footer class="footer-section border-top py-5 bg-secondary my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4">
+                <h4>Information</h4>
+                <ul class="footer-list">
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Shipping Policy</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <h4>User Area</h4>
+                <ul class="footer-list">
+                    <li><a href="">My account</a></li>
+                    <li><a href="">My Cart</a></li>
+                    <li><a href="">Login</a></li>
+                    <li><a href="">Checkout</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <h4>Contact Info</h4>
+                 <span class="text-white"><i class="bi bi-telephone-fill"></i></span> <a href="">07577985281</a></br>
+                 <span class="text-white"><i class="bi bi-geo-alt"></i></span> <a href=""> 509 724 580 - issued in New York (NY) on 03/11/2019, expires 08/11/2023</a></br>
+               <span class="text-white"><i class="bi bi-envelope"></i></span> <a href=""> support@eshop.com</a>
+            </div>
+
+            <div class="col col-lg-3 col-md-4">
+                <div>
+                  <h4>Newsletter</h4>
+                    <div class="text-left">
+                    <p>Subscribe to get latest news, update and information</p>
+                    <div class="email d-flex">
+                            <a href="#"> <input type="text" name="search" value="Enter your email...." class="py-2"> </a></li>
+                            <a href=""><button type="button" class="btn btn-infop bg-danger py-2">Send</button></a>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <hr>
+       <div class="row">
+        <div class="col-lg-4">
+            <img src="assets/images/ecommerce-logo-png-11.png" height="40" alt="">
+            <h2 class="mt-3">Get the app</h2>
+            <p>NEfresh App is now available on Google Play & App Store. Get it now.</p>
+           <div class="d-flex py-4">
+            <a href=""><img src="assets/images/store1.png" alt=""></a>
+            <a href=""><img src="assets/images/store2.png" alt=""></a>
+           </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="follow mt-5 pt-2">
+                <h2>Follow us</h2>
+                <p>Let us be Social</p>
+               <ul class="social-icon">
+                   <li>
+                    <a href=""><img src="./assets/images/product/Facebook.png" alt=""></a>
+                    <a href=""><img src="./assets/images/product/Instagram.png" alt=""></a>
+                    <a href=""><img src="./assets/images/product/twitter.png" alt=""></a>
+                    <a href=""><img src="./assets/images/product/Youtube.png" alt=""></a>                
+                   </li>
+               </ul>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <div class="icon">
+                <a href="#"><img src="./assets/images/product/cash-on-delivery.png" alt=""><span>cash-on-delivery</span></a>
+            </a>
+            <a href="#"><img src="./assets/images/product/1-hour.png" alt=""><span>30 minute delivery</span></a>
+            </div>
+            <div class="pay-title">
+                <h2 class="mt-2">Payment method</h2>
+                <p>pay Your Paments</p>
+            </div>
+              <a href=""></a>
+            <a href="">
+                <div class="pay d-flex">
+                    <img src="./assets/images/product/bkash (2).png" alt="">
+                    <img src="./assets/images/pay-method/visa.png" alt="">
+                    <img src="./assets/images/pay-method/americanexpress.png" alt="">
+                    <img src="./assets/images/pay-method/mastercard.png" alt="">
+                </div>
+               
+        </div>
+    </div>
+        <hr>
+
+        <div class="copyright-text mt-3 text-center">
+            <a href="">Copyright © 2021 <span class="text-dark fw-bold">Ecommerce</span>
+                <span  class="text-danger fw-bold">Flatform</span><p>Designed by Muntasir</p></a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
